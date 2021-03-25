@@ -13,7 +13,71 @@ body {
 }
 
 .calculator-container {
-  border: 1px solid black;
+  text-align: center;
   border-radius: 5px;
-  padding: 10px 10px;
+  width: 45vw;
+  height: 41vh;
 }
+
+input[type="text"]{
+  background: white;
+  text-align: right;
+  font-size: 35px;
+  border: 1px solid black;
+  border-radius: 0;
+  width: 100%;
+  height: 70px;
+}
+
+input::placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.row {
+  display: flex;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 1.1em;
+  border: 1px solid black;
+  border-radius: 0;
+  width: 100vw;
+  height: 50px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.zero {
+  width: 229vw;
+}
+
+#main-btn {
+  background-color: white;
+}
+
+#main-btn:hover {
+  background-color: #f1f1f1;
+}
+
+#num-btn {
+  background-color: #d3d3d3
+}
+
+#num-btn:hover {
+  background-color: #e0e0e0;
+}
+
+#action-btn {
+  background-color: #FD9E2B;
+}
+
+#action-btn:hover {
+  background-color: #fdb65e;
+}
+
+
+
